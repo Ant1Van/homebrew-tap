@@ -1,13 +1,13 @@
 cask "skillhub" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "41d8b5d440a74319d76fc38cd8acdec75ff72ea163a1d59cdebd3ecabed499b1",
-         intel: "e39519557c435eb468bbc62141ffe1ff99d9ab08076f0aa040966e13c9915c2d"
+  version "0.2.0"
+  sha256 arm:   "f75922ebab4d73f6ed012c8d22037aebd8079075cf67bc66cffb7aa2b1331a28",
+         intel: "e1371d3631edf6cfea33d7e7baff9a78e783b75cb2b77922820d72771b20d915"
 
   url "https://github.com/Ant1Van/SkillHub/releases/download/v#{version}/SkillHub_#{version}_#{arch}.dmg"
   name "SkillHub"
-  desc "Desktop manager and marketplace for Claude Code skills"
+  desc "Universal desktop manager and marketplace for AI coding agent skills"
   homepage "https://github.com/Ant1Van/SkillHub"
 
   livecheck do
