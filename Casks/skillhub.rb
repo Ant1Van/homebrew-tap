@@ -1,9 +1,9 @@
 cask "skillhub" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "f75922ebab4d73f6ed012c8d22037aebd8079075cf67bc66cffb7aa2b1331a28",
-         intel: "e1371d3631edf6cfea33d7e7baff9a78e783b75cb2b77922820d72771b20d915"
+  version "0.2.1"
+  sha256 arm:   "8e488691c125d1734797601ca94fc5f95fc0483daa353f8520abc2a0781f6fd6",
+         intel: "53c9a4679747555ddb60d263df0c828a258c2a4f34df0d1d5ceb8c22d7e61e84"
 
   url "https://github.com/Ant1Van/SkillHub/releases/download/v#{version}/SkillHub_#{version}_#{arch}.dmg"
   name "SkillHub"
