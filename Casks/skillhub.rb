@@ -19,6 +19,13 @@ cask "skillhub" do
 
   app "SkillHub.app"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-d", "-r", "com.apple.quarantine", "#{appdir}/SkillHub.app"]
+  rescue
+    nil
+  end
+
   zap trash: [
     "~/Library/Application Support/com.skillhub.desktop",
     "~/Library/Saved Application State/com.skillhub.desktop.savedState",
